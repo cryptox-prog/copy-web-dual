@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Image Relay</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<header><a class="brand" href="/">▧ <span>Image Relay</span></a><span class="connection" id="connection">Connecting…</span></header>
+<main><div class="intro"><div><div class="eyebrow">YOUR IMAGE → TEXT WORKSPACE</div><h1>A picture comes in.<br>A reply goes back.</h1><p>Open a request, copy or save its images, then send your text back to the app.</p></div><div class="stat"><strong id="pending">0</strong><span>awaiting a reply</span></div></div>
+<div class="workspace"><aside><div class="list-heading"><h2>Requests</h2><span id="count">0</span></div><div id="requests"></div></aside><section id="detail"><div class="empty"><div class="empty-icon">▧</div><h2>Ready when you are</h2><p>Send images from your C++ app.<br>Your requests will appear here automatically.</p><code>./relay-client http://localhost:8080 image.png</code></div></section></div>
+<p id="notice" role="status" aria-live="polite"></p></main><script src="/app.js"></script>
+</body></html>
